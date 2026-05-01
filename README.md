@@ -1,1 +1,4 @@
-# Speech-Screening-for-Mild-Cognitive-Impairment-Based-on-Multimodal-Knowledge-Distillation
+# 基于多模态知识蒸馏的轻度认知障碍语音筛查研究
+## 我当前在完成毕业论文，这是我的项目主要代码，你可以从train.py出发查看我的训练结构
+## 我首先训练了一个多模态教师模型（语音表格特征模态+认知量表模态+数值化的MRI表格特征模态，注意我实验并没有用到MRI图像模态，而是在train.py中的speech_cog训练模式中将数值化的MRI表格特征数据和认知量表数据合并处理了）
+## 其次，我再用训练好的多模态教师模型蒸馏出了一个单语音模态的学生模型
